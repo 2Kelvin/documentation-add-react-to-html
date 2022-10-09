@@ -7,13 +7,6 @@ function likeButton() {
         return "You liked this";
     }
 
-    // return React.createElement(
-    //     'button',
-    //     {
-    //         onClick: () => setLiked(true),
-    //     },
-    //     'Like'
-    // );
     return (
         <button onClick={() => setLiked(true)}>
             Like
