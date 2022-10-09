@@ -14,8 +14,12 @@
     <div id="anotherRoot"></div>
 
     <!-- react script tags -->
-    <script src="https://unpkg.com/react@18/umd/react.production.min.js" crossorigin></script>
-    <script src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js" crossorigin></script>
+    <script src="https://unpkg.com/react@18/umd/react.development.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js" crossorigin></script>
+    <!-- importing the babel compiler so as to use JSX -->
+    <!-- <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script> -->
+
+    <!-- my javascript file -->
     <script src="likeButton.js"></script>
 </body>
 
@@ -25,5 +29,13 @@
     // the 'root' is where the react tree starts
     // React can have as many root HTML tags as possible in one page
     // react.development.js lets you define React components
-    // react-dom.development.js lets React render HTML elements to the DOM.
+    // react-dom.development.js lets React render HTML elements to the DOM
+    // the quickest way to try JSX is to add the Babel compiler as a <script> tag to the page
+    // install terser minify your OWN custom js files
+    // for the linked script tag js files; use the ones using file extension 'min' & 'production.min'-> for faster load times
+    // your custom js file should be the last one in the HTML
+    //...and above it, the linked react and babel js script tags
+    // to use JSX after linking babel, add a type="text/babel" attribute to your custom js file script tag
+    // the babel script link method is very slow & no recommended for production
+    // used method 2: using a JSX preprocessor
  -->
