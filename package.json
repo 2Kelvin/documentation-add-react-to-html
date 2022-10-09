@@ -1,0 +1,23 @@
+{
+  "name": "simple-html-and-react",
+  "version": "1.0.0",
+  "description": "",
+  "main": "likeButton.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/2Kelvin/documentation-add-react-to-html.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/2Kelvin/documentation-add-react-to-html/issues"
+  },
+  "homepage": "https://github.com/2Kelvin/documentation-add-react-to-html#readme",
+  "dependencies": {
+    "terser": "^5.15.1"
+  }
+}
